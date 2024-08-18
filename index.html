@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Formación Virtual | Bienvenida</title>
+        <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+      </head>
+    
+<body>
+    <header class="header">
+        <h1>
+          <img src="images/logo.png" alt="Logo">
+        </h1>
+    </header>
+    <nav class="navbar">
+        <a href="#inicio">Home</a>
+        <a href="#historia">Historia</a>
+        <a href="#diplomados">Diplomados</a>
+        <a href="#costos">Costos</a>
+        <a href="#ubicacion">Ubicacion</a>
+    </nav>
+    <section id="historia" class="content who">
+        <h2 class="title">Nuestra historia</h2>
+        <p>Somos una empresa que nacio hace 40 años contamos con la experiencia necesaria para implentar los conocimientos que nuestros estudiantes desean.</p>
+        <p>Nos especializamos en todas las areas que se imparten, manteniendonos siempre a la vanguardia de la actualidad.</p>
+    </section>
+    <section id="diplomados" class="content diplomados">
+        <h2 class="title">Servicios</h2>
+        <p>Contamos con diferentes diplomados en diferentes areas como ingles, contabilidad, artes, entre otras:</p>
+        <ul class="list-services">
+          <li>
+            <figure>
+              <img src="images/ico1.png" alt="Angular">
+              <figcaption>Angular</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/ico2.png" alt="React">
+              <figcaption>React</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/ico3.png" alt="Vuejs">
+              <figcaption>Vuejs</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+      <section id="costos" class="content costos">
+        <article class="contain">
+          <h2 class="title">Costos</h2>
+          <p>Los costos de los diplomados que brindamos dependeran segun tipo de curso a elegir:</p>
+          <p>Ingles: $50.00 USD <br>
+            Duración: 8 semanas <br>
+            </p>
+          <p>Contabilidad: $60.00 USD <br>
+                Duración: 8 semanas <br>
+                </p>
+          <p>Artes: $40.00 USD <br>
+                    Duración: 4 semanas <br>
+                    </p>
+          <a href="#contacto" class="btn">Contáctanos</a>
+        </article>
+      </section>
+      <section id="opiniones" class="content opiniones">
+        <h2 class="title">Opiniones</h2>
+        <div class="opinion-box">
+          <blockquote>
+            <p>"Excelentes herramientas para el trabajo y superacion."</p>
+            <cite>- Carmen Castro X</cite>
+          </blockquote>
+        </div>
+        <div class="opinion-box">
+          <blockquote>
+            <p>"Recomendados por su excelente entrega y dedicacion"</p>
+            <cite>- Veronica Reyes Y</cite>
+          </blockquote>
+        </div>
+      </section>
+      <section id="ubicacion" class="content ubicacion">
+        <h2 class="title">Ubicación</h2>
+        <p>Le brindamos nuestra ubicacion para mayor informacion:</p>
+        <div id="map"></div>
+        <h3>Formulario de Contacto</h3>
+        <form id="contacto" action="enviar_formulario.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      <footer class="footer">
+        <p>&copy; 2024 Fazt. Todos los derechos reservados.</p>
+        <nav class="footer-nav">
+          <a href="#inicio">Home</a>
+          <a href="#historia">Historia</a>
+          <a href="#diplomados">Diplomados</a>
+          <a href="#costos">Costos</a>
+          <a href="#ubicacion">Ubicación</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </footer>
+</body>
+</html>
